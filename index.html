@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>粉末喷涂仿真系统</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="topbar">
+  <span class="logo">粉末喷涂仿真</span>
+  <nav id="nav">
+    <a href="#/parts" data-route="parts">工件库</a>
+    <a href="#/booth" data-route="booth">喷房配置</a>
+    <a href="#/sim" data-route="sim">喷涂仿真</a>
+    <a href="#/analysis" data-route="analysis">结果分析</a>
+    <a href="#/capacity" data-route="capacity">产能核算</a>
+  </nav>
+  <span id="gl-status" class="gl-status"></span>
+</header>
+<main id="app"></main>
+<div id="toast" class="toast" hidden></div>
+<script type="module" src="dist/main.js"></script>
+</body>
+</html>

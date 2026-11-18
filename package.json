@@ -1,0 +1,17 @@
+{
+  "name": "powder-coat-sim",
+  "version": "0.1.0",
+  "private": true,
+  "description": "粉末喷涂代工仿真:工件库 / 喷房配置 / 喷涂仿真 / 结果分析 / 产能核算",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node server.mjs",
+    "test": "node test/smoke.mjs && node test/e2e.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.18.1",
+    "typescript": "^5.5.0"
+  }
+}
